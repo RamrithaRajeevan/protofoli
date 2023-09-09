@@ -1,0 +1,47 @@
+body{
+    background-image: url("black.jpg");
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    color: floralwhite;
+    width: 50%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.socil-icon{
+    margin-top: 30px;
+}
+.socil-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababaa;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.socil-icon a:hover{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.contact-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+.contact-right form{
+   width: 100%; 
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    
+}

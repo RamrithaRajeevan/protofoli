@@ -1,0 +1,38 @@
+body{
+    margin: 100px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.left{
+    width: 50%;
+    height: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+.left img{
+    width:400px;
+    height:400px;
+}
+.right{
+    color: white;
+    width:50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+    padding: 10px;
+    margin-left:500px;
+    text-decoration: none;
+}
+.back{
+    padding-top: 120px;
+
+}

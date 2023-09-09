@@ -1,0 +1,27 @@
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: poppin;
+    margin-top: 40px;
+    color: floralwhite;
+}
+body{
+    background-image: url("black.jpg");
+}
+.card-text{
+    justify-content: center;
+}
+.card{
+    background-color:beige;
+    
+    align-items: center;
+    margin-left: 20px;
+    
+}
+.card:hover{
+    background-color: cadetblue;
+}
+.container{
+    margin-top:180px;
+    margin-left: 250px;
+}
